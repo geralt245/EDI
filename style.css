@@ -1,6 +1,6 @@
 body {
   color: #e0e0e0;
-  background-color: #222831;
+  background-color: #3b434b;
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
@@ -13,11 +13,13 @@ a {
   color: #7084a3;
 }
 .sekcja {
-  border: 1px solid white;
+  box-shadow: 0px -1px 10px rgb(0 0 0 / 80%);
+  background-color: #222831;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 header.sekcja {
