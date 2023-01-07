@@ -1,5 +1,36 @@
 body {
+  color: #e0e0e0;
+  background-color: #222831;
   font-family: sans-serif;
   margin: 0px;
   padding: 0px;
+  text-align: center;
+}
+
+h3,
+p,
+a {
+  color: #7084a3;
+}
+.sekcja {
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 25px;
+}
+
+header.sekcja {
+  height: 300px;
+}
+main.sekcja {
+  height: 700px;
+}
+footer.sekcja {
+  height: 50px;
+}
+.autorzy {
+  text-align: right;
+  margin-right: 5px;
+  color: #e0e0e0;
 }
