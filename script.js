@@ -1,4 +1,4 @@
-fetch("https://my.api.mockaroo.com/cars.json?key=fd4d4030").then((data) => {
+fetch("https://my.api.mockaroo.com/cars.json?key=03c914c0").then((data) => {
     return data.json();
 }).then((objectData) => {
     let tableData = "";
@@ -16,7 +16,7 @@ fetch("https://my.api.mockaroo.com/cars.json?key=fd4d4030").then((data) => {
 });
 
 
-fetch('https://my.api.mockaroo.com/cars.json?key=fd4d4030')
+fetch('https://my.api.mockaroo.com/cars.json?key=03c914c0')
     .then(response => response.json())
     .then(data => {
         const labels = data.map(car => car.car_make);
@@ -58,7 +58,7 @@ fetch('https://my.api.mockaroo.com/cars.json?key=fd4d4030')
 
 
 
-fetch('https://my.api.mockaroo.com/cars.json?key=fd4d4030')
+fetch('https://my.api.mockaroo.com/cars.json?key=03c914c0')
     .then(response => response.json())
     .then(data => {
         const labels = data.slice(0, 5).map(car => car.country);
@@ -91,7 +91,7 @@ fetch('https://my.api.mockaroo.com/cars.json?key=fd4d4030')
     });
 
 
-fetch('https://my.api.mockaroo.com/cars.json?key=fd4d4030')
+fetch('https://my.api.mockaroo.com/cars.json?key=03c914c0')
     .then(response => response.json())
     .then(data => {
         const labels = data.map(car => car.year);
@@ -103,7 +103,7 @@ fetch('https://my.api.mockaroo.com/cars.json?key=fd4d4030')
             data: {
                 labels: labels,
                 datasets: [{
-                    label: 'Price',
+                    label: 'Units Sold',
                     data: values,
                     borderColor: '#3e95cd',
                     fill: false
